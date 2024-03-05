@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    min-height: 150px;  
+    background-image: url("/imagens/clinica.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: whitesmoke;
+    min-height: 150px;
+}
+ul{
+    list-style-type: none;
+
+    
+}
+li{
+    min-height: 100px;
+    border: 1px solid white;
+    border-radius: 100px;
+    align-items: center;
+    display:flex;
+    text-align: center;
+    border-width: 5px;
+    margin: 10px 10px 20px 10px;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.header1 {
+    min-height: 150px;  
+    background-image: url("/imagens/sobre.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.header2{
+    min-height: 150px;  
+    background-image: url("/imagens/contato.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.header3{
+    min-height: 150px;  
+    background-image: url("/imagens/agende.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  
+}
+table{
+    margin-left:250px;
+}
+
+thead{
+    background-color: black;
+}
+
+th {
+    color: white;
+    border-color: white;
+}
+iframe{
+    width: 300px;
+    height: 300px;
+
+}
+
+.mapa{
+    padding-left: 650px;
+}
+
+.formulario{
+    justify-content: baseline;
+}
